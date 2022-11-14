@@ -1,4 +1,4 @@
-import dataPrograms from "../../dataPrograms.js";
+import dataPrograms from "../dataPrograms.js";
 
 const monday = (time) => 
 {
