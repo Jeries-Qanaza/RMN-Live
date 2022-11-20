@@ -116,13 +116,9 @@ const tuesday = (time) =>
     {
       obj=  dataPrograms.find(x => x.progName == "نقطة حب من قلب الرب") 
     }
-    else if(time>=10.30&&time<10.45)
+    else if(time>=10.30&&time<11)
     {
-       obj=  dataPrograms.find(x => x.progName == "ترانيم")
-    }
-    else if(time>=10.45&&time<11)
-    {
-       obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
+       obj=  dataPrograms.find(x => x.progName == "صلوات من اجل المرضى")
     }
     else if(time>=11&&time<11.30)
     {
