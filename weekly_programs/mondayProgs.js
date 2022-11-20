@@ -26,7 +26,7 @@ const monday = (time) =>
     }
     else if (time >= 2 && time < 2.45)
     {
-        obj=  dataPrograms.find(x => x.id == 52)
+        obj=  dataPrograms.find(x => x.id == 75)
     }
     else if(time>=2.45&&time<3)
     {
