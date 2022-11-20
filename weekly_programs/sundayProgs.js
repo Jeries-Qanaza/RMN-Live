@@ -244,13 +244,9 @@ const sunday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "تأملات مسيحية")
     }
-    else if(time>=21.15&&time<21.45)
+    else if(time>=21.15&&time<22)
     {
-        obj=  dataPrograms.find(x => x.progName == "العناصر الاساسية للاخلاق المسيحية")
-    }
-    else if(time>=21.45&&time<22)
-    {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+        obj=  dataPrograms.find(x => x.progName == "مقابلات ومفاجئات")
     }
     else if(time>=22&&time<22.15)
     {
