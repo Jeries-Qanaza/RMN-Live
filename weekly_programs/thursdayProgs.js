@@ -180,13 +180,9 @@ const thursday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "ليتورجيه بيزنطية")
     }
-	else if(time>=16.45&&time<17)
+	else if(time>=16.45&&time<17.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
-    }
-    else if(time>=17&&time<17.30)
-    {
-        obj=  dataPrograms.find(x => x.progName == "العناصر الاساسية للاخلاق المسيحية")
+        obj=  dataPrograms.find(x => x.progName == "مقابلات ومفاجئات")
     }
     else if(time>=17.30&&time<17.45)
     {
