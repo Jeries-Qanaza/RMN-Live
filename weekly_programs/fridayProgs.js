@@ -30,7 +30,7 @@ const friday = (time) =>
         obj=  dataPrograms.find(x => x.progName == "مسبحة الرحمة الالهية")
     }
     else if(time>=3.15&&time<3.45)  {
-        obj=  dataPrograms.find(x => x.progName == "طبق اليوم")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
 	else if(time>=3.45&&time<4)  {
         obj=  dataPrograms.find(x => x.progName == "قصة وعبرة")
@@ -80,11 +80,8 @@ const friday = (time) =>
 	else if(time>=8.45&&time<9)  {
         obj=  dataPrograms.find(x => x.progName == "قراءات روحية")
     }
-    else if(time>=9&&time<9.30)  {
+    else if(time>=9&&time<10)  {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
-    }
-    else if(time>=9.30&&time<10)  {
-        obj=  dataPrograms.find(x => x.progName == "طبق اليوم")
     }
     else if(time>=10&&time<10.30)  {
         obj=  dataPrograms.find(x => x.progName == "ليتروجية بيزنطية")
@@ -129,7 +126,7 @@ const friday = (time) =>
         obj=  dataPrograms.find(x => x.progName == "تأملات مسيحية")
     }
 	else if(time>=15.30&&time<16)  {
-        obj=  dataPrograms.find(x => x.progName == "طبق اليوم")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=16&&time<16.15)  {
         obj=  dataPrograms.find(x => x.progName == "قديسي الاسبوع")

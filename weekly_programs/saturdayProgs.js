@@ -42,7 +42,7 @@ const saturday = (time) =>
     }
     else if(time>=3.15&&time<3.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "طبق اليوم")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
 	else if(time>=3.45&&time<4)
     {

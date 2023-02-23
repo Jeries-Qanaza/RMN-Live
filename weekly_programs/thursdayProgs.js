@@ -26,7 +26,7 @@ const thursday = (time) =>
     }
     else if(time>=2&&time<2.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "طبق اليوم")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
 	 else if(time>=2.30&&time<2.45)
     {
@@ -110,7 +110,7 @@ const thursday = (time) =>
     }
     else if(time>=9.30&&time<10)
     {
-        obj=  dataPrograms.find(x => x.progName == "طبق اليوم")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=10&&time<10.30)
     {
@@ -170,7 +170,7 @@ const thursday = (time) =>
     }
 	else if(time>=15.30&&time<16)
     {
-        obj=  dataPrograms.find(x => x.progName == "طبق اليوم")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=16&&time<16.15)
     {
