@@ -22,7 +22,7 @@ const saturday = (time) =>
     }
     else if(time>=1.30&&time<2)
     {
-        obj=  dataPrograms.find(x => x.progName == "عائلاتنا الى اين")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if (time >= 2 && time < 2.30)
     {
@@ -30,7 +30,7 @@ const saturday = (time) =>
     }
     else if(time>=2.30&&time<2.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم قبطية")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=2.45&&time<3)
     {
@@ -84,13 +84,17 @@ const saturday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "تأملات مسيحية")
     }
-    else if(time>=6.45&&time<7)
+    else if(time>=6.45&&time<7.15)
+    {
+        obj=  dataPrograms.find(x => x.progName == "المسبحة اسرار النور")
+    }
+    else if(time>=7.15&&time<7.30)
     {
         obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
     }
-    else if(time>=7&&time<7.45)
+    else if (time >= 7.30 && time < 7.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "المسبحة اسرار النور")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")   
     }
 	else if(time>=7.45&&time<8)
     {
@@ -110,7 +114,7 @@ const saturday = (time) =>
     }
     else if(time>=9&&time<9.15)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+        obj=  dataPrograms.find(x => x.progName == "اية اليوم")
     }
     else if(time>=9.15&&time<9.45)
     {
@@ -120,11 +124,11 @@ const saturday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
-    else if(time>=10&&time<10.45)
+    else if(time>=10&&time<10.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "الشباب يشهد")
+        obj=  dataPrograms.find(x => x.progName == "حياتنا الروحية")
     }
-	else if(time>=10.45&&time<11)
+	else if(time>=10.30&&time<11)
     {
         obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
     }
@@ -146,13 +150,9 @@ const saturday = (time) =>
     }
     else if(time>=13&&time<13.15)
     {
-        obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
+        obj=  dataPrograms.find(x => x.progName == "غذاء الروح")
     }
-    else if(time>=13.15&&time<13.45)
-    {
-        obj=  dataPrograms.find(x => x.progName == "لقاء رنان مع بابا الفاتيكان")
-    }
-	else if(time>=13.45&&time<14)
+    else if(time>=13.15&&time<14)
     {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
@@ -164,7 +164,11 @@ const saturday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "اية اليوم")
     }
-	else if(time>=14.30&&time<15)
+    else if(time>=14.30&&time<14.45)
+    {
+        obj=  dataPrograms.find(x => x.progName == "قديسي الاسبوع")
+    }
+	else if(time>=14.45&&time<15)
     {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
@@ -176,30 +180,30 @@ const saturday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "تأملات مسيحية")
     }
-	else if(time>=15.30&&time<16)
+	else if(time>=15.30&&time<16.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+        obj=  dataPrograms.find(x => x.progName == "اخلاقيات مسيحية")
     }
-    else if(time>=16&&time<16.15)
+    else if(time>=16.30&&time<16.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "قديسي الاسبوع")
-    }
-    else if(time>=16.15&&time<16.45)
-    {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+        obj = dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=16.45&&time<17)
     {
         obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
     }
-    else if(time>=17&&time<17.45)
+    else if(time>=17&&time<17.15)
     {
-        obj=  dataPrograms.find(x => x.progName == "منائر مع الخوري انطوان الدويهي")
+        obj=  dataPrograms.find(x => x.progName == "اية اليوم")
     }
-	else if(time>=17.45&&time<18)
+	else if(time>=17.15&&time<17.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "مزمور النهار")
+        obj = dataPrograms.find(x => x.progName == "ترانيم")
     }
+    else if (time >= 17.45 && time < 18)
+    {
+        obj = dataPrograms.find(x => x.progName == "مزمور النهار")
+        }
     else if(time>=18&&time<18.15)
     {
         obj=  dataPrograms.find(x => x.progName == "السلام الملائكي")
@@ -210,7 +214,7 @@ const saturday = (time) =>
     }
     else if(time>=19&&time<19.15)
     {
-        obj=  dataPrograms.find(x => x.progName == "اية اليوم")
+        obj=  dataPrograms.find(x => x.progName == "ومضة روحية")
     }
     else if(time>=19.15&&time<19.45)
     {
@@ -234,19 +238,15 @@ const saturday = (time) =>
     }
     else if(time>=21.15&&time<22)
     {
-        obj=  dataPrograms.find(x => x.progName == "كلام لمعي مع الاب داود لمعي")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=22&&time<22.15)
     {
         obj=  dataPrograms.find(x => x.progName == "قصة وعبرة")
     }
-    else if(time>=22.15&&time<22.30)
+    else if(time>=22.15&&time<23)
     {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
-    }
-	else if(time>=22.30&&time<23)
-    {
-        obj=  dataPrograms.find(x => x.progName == "لقاء رنان مع بابا الفاتيكان")
     }
 	else if(time>=23&&time<23.15)
     {

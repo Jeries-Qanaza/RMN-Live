@@ -58,7 +58,7 @@ const sunday = (time) =>
     }
 	else if(time>=4.45&&time<5.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "الشباب يشهد")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=5.30&&time<5.45)
     {
@@ -80,13 +80,17 @@ const sunday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "تأملات مسيحية")
     }
-    else if(time>=6.45&&time<7)
+    else if(time>=6.45&&time<7.15)
+    {
+        obj=  dataPrograms.find(x => x.progName == "المسبحة اسرار النور")
+    }
+    else if(time>=7.15&&time<7.30)
     {
         obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
     }
-    else if(time>=7&&time<7.45)
+    else if(time>=7.30&&time<7.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "المسبحة اسرار النور")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
 	else if(time>=7.45&&time<8)
     {
@@ -116,13 +120,9 @@ const sunday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "بشرى نار مع بشار")
     }
-	 else if(time>=9.45&&time<10)
+	 else if(time>=9.45&&time<10.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "قصة وعبرة")
-    }
-    else if(time>=10&&time<10.45)
-    {
-        obj=  dataPrograms.find(x => x.progName == "منائر مع الخوري انطوان الدويهي")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
 	else if(time>=10.45&&time<11)
     {
@@ -150,7 +150,7 @@ const sunday = (time) =>
     }
     else if(time>=13&&time<13.15)
     {
-        obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
+        obj=  dataPrograms.find(x => x.progName == "غذاء الروح")
     }
     else if(time>=13.15&&time<13.30)
     {
@@ -158,7 +158,7 @@ const sunday = (time) =>
     }
 	else if(time>=13.30&&time<14)
     {
-        obj=  dataPrograms.find(x => x.progName == "عائلاتنا الى اين")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=14&&time<14.15)
     {
@@ -182,7 +182,7 @@ const sunday = (time) =>
     }
 	else if(time>=15.30&&time<16)
     {
-        obj=  dataPrograms.find(x => x.progName == "العناصر الاساسية للاخلاق المسيحية")
+        obj=  dataPrograms.find(x => x.progName == "حياتنا الروحية")
     }
     else if(time>=16&&time<16.15)
     {
@@ -202,7 +202,7 @@ const sunday = (time) =>
     }
     else if(time>=17&&time<17.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "لقاء نار مع بابا الفاتيكان")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
 	else if(time>=17.30&&time<17.45)
     {
@@ -246,7 +246,7 @@ const sunday = (time) =>
     }
     else if(time>=21.15&&time<22)
     {
-        obj=  dataPrograms.find(x => x.progName == "مقابلات ومفاجئات")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=22&&time<22.15)
     {

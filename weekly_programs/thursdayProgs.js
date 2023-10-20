@@ -26,11 +26,11 @@ const thursday = (time) =>
     }
     else if(time>=2&&time<2.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+        obj=  dataPrograms.find(x => x.progName == "حياتنا الروحية")
     }
 	 else if(time>=2.30&&time<2.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم مارونية")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
 	 else if(time>=2.45&&time<3)
     {
@@ -58,7 +58,7 @@ const thursday = (time) =>
     }
     else if(time>=5&&time<5.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "العناصر الاساسية للاخلاق المسيحية")
+            obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=5.30&&time<5.45)
     {
@@ -82,11 +82,11 @@ const thursday = (time) =>
     }
 	else if(time>=6.45&&time<7)
     {
-        obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
+        obj=  dataPrograms.find(x => x.progName == "المسبحة اسرار النور")
     }
     else if(time>=7&&time<7.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "المسبحة اسرار الفرح")
+        obj=  dataPrograms.find(x => x.progName == "القداس الالهي")
     }
 	else if(time>=7.45&&time<8)
     {
@@ -104,11 +104,7 @@ const thursday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "قراءات روحية")
     }
-    else if(time>=9&&time<9.30)
-    {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
-    }
-    else if(time>=9.30&&time<10)
+    else if(time>=9&&time<10)
     {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
@@ -118,11 +114,11 @@ const thursday = (time) =>
     }
     else if(time>=10.30&&time<10.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+        obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
     }
 	  else if(time>=10.45&&time<11)
     {
-        obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=11&&time<11.30)
     {
@@ -142,11 +138,11 @@ const thursday = (time) =>
     }
     else if(time>=13&&time<13.15)
     {
-        obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
+        obj=  dataPrograms.find(x => x.progName == "غذاء الروح")
     }
     else if(time>=13.15&&time<14)
     {
-        obj=  dataPrograms.find(x => x.progName == "منائر مع الخوري انطوان الدويهي")
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=14&&time<14.15)
     {
@@ -156,37 +152,37 @@ const thursday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "اية اليوم")
     }
-	 else if(time>=14.30&&time<15)
+	 else if(time>=14.30&&time<14.45)
+    {
+        obj=  dataPrograms.find(x => x.progName == "قديسي الاسبوع")
+    }
+    else if(time>=14.45&&time<15)
     {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=15&&time<15.15)
     {
         obj=  dataPrograms.find(x => x.progName == "مسبحة الرحمة الالهية")
-    }
+    }   
     else if(time>=15.15&&time<15.30)
     {
         obj=  dataPrograms.find(x => x.progName == "تأملات مسيحية")
     }
-	else if(time>=15.30&&time<16)
+	else if(time>=15.30&&time<16.15)
     {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
-    }
-    else if(time>=16&&time<16.15)
-    {
-        obj=  dataPrograms.find(x => x.progName == "قديسي الاسبوع")
     }
 	else if(time>=16.15&&time<16.45)
     {
         obj=  dataPrograms.find(x => x.progName == "ليتورجيه بيزنطية")
     }
-	else if(time>=16.45&&time<17.30)
+    else if(time>=16.45&&time<17)
     {
-        obj=  dataPrograms.find(x => x.progName == "مقابلات ومفاجئات")
-    }
-    else if(time>=17.30&&time<17.45)
+        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+    }     
+    else if(time>=17&&time<17.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم لاتينية")
+        obj=  dataPrograms.find(x => x.progName == "حياتنا الروحية")
     }
     else if(time>=17.45&&time<18)
     {
@@ -238,7 +234,7 @@ const thursday = (time) =>
     }
     else if(time>=22.15&&time<22.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "وقفة مع برامجنا")
+        obj=  dataPrograms.find(x => x.progName == "انجيل وعظة قداس اليوم")
     }
 	else if(time>=22.30&&time<23)
     {

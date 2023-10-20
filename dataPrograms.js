@@ -380,6 +380,16 @@ const dataPrograms =
       progName:"صلوات من اجل المرضى",  
       progImg:"https://static.wixstatic.com/media/11d6d3_bb157edc563e4804ae7f1a9113812099~mv2.jpg"
     },
+    {
+      id:77,
+      progName:"حياتنا الروحية",  
+      progImg:"https://ar.zenit.org/wp-content/uploads/sites/5/2016/03/cross-106416_1920.jpg"
+    },
+    {
+      id:78,
+      progName:"غذاء الروح",  
+      progImg:"https://play-lh.googleusercontent.com/ij5rgBa4dInlklObkk1qd2D0xzUDCXHAeZCoZDTiBmkb2U23JveKLMp-bsA7sdRpJrA"
+    },
 
   ]
 export default  dataPrograms;
