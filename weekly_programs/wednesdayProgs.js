@@ -102,11 +102,11 @@ const wednesday = (time) =>
     }
 	 else if(time>9&&time<9.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "اتبعك اليوم وكل ان")
+         obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
 	 else if(time>9.30&&time<10)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+	obj=  dataPrograms.find(x => x.progName == "اتبعك اليوم وكل ان")
     }
 	 else if(time>10&&time<11)
     {
