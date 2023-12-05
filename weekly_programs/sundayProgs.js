@@ -42,7 +42,7 @@ const sunday = (time) =>
     }
 	else if(time>=3.30&&time<3.45)
     {
-        obj=  dataPrograms.find(x => x.progName == "اية اليوم")
+        obj=  dataPrograms.find(x => x.progName == "نور المعرفة")
     }
 	else if(time>=3.45&&time<4)
     {
@@ -138,7 +138,7 @@ const sunday = (time) =>
     }
 	else if(time>=11.45&&time<12)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+        obj=  dataPrograms.find(x => x.progName == "نور المعرفة")
     }
     else if(time>=12&&time<12.15)
     {
