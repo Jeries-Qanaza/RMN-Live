@@ -390,6 +390,11 @@ const dataPrograms =
       progName:"غذاء الروح",  
       progImg:"https://play-lh.googleusercontent.com/ij5rgBa4dInlklObkk1qd2D0xzUDCXHAeZCoZDTiBmkb2U23JveKLMp-bsA7sdRpJrA"
     },
-
+    {
+      id:79,
+      progName:"نور المعرفة",  
+      progImg:"https://static.wixstatic.com/media/c2355d_93c495f588d64ee481d46a727370c513~mv2.png"
+    },
+      
   ]
 export default  dataPrograms;
