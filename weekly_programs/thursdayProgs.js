@@ -104,9 +104,13 @@ const thursday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "قراءات روحية")
     }
-    else if(time>=9&&time<10)
+    else if(time>=9&&time<9.15)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+         obj=  dataPrograms.find(x => x.progName == "نور المعرفة")
+    }
+else if(time>=9.15&&time<10)
+    {
+         obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }
     else if(time>=10&&time<10.30)
     {
@@ -180,9 +184,13 @@ const thursday = (time) =>
     {
         obj=  dataPrograms.find(x => x.progName == "ترانيم")
     }     
-    else if(time>=17&&time<17.45)
+    else if(time>=17&&time<17.30)
     {
         obj=  dataPrograms.find(x => x.progName == "حياتنا الروحية")
+    }
+else if(time>=17.30&&time<17.45)
+    {
+         obj=  dataPrograms.find(x => x.progName == "نور المعرفة")
     }
     else if(time>=17.45&&time<18)
     {
@@ -222,7 +230,7 @@ const thursday = (time) =>
     }
     else if(time>=21.15&&time<21.30)
     {
-        obj=  dataPrograms.find(x => x.progName == "ترانيم")
+          obj=  dataPrograms.find(x => x.progName == "نور المعرفة")
     }
     else if(time>=21.30&&time<22)
     {
